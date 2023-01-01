@@ -1,0 +1,82 @@
+
+  aside{
+    
+    margin-left: 2%;
+  }
+  .add{
+    margin-top: 5%;
+    margin-left: 9%;
+    display: flex;
+    
+    
+  }
+  details > summary{
+    border-radius: 2px;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    list-style: none;
+    font-size: large;
+    font-weight: bold;
+    padding: 9px;
+  width: 10.5em;
+  background-color: rgb(39, 94, 165);
+  border: none;
+  box-shadow: 3px 3px 4px rgb(64, 63, 63);
+  }
+  details > summary:hover{
+    cursor: pointer;
+    background-color: rgb(23, 148, 220);
+    
+  }
+  .inpt{
+    border: none;
+    padding: 5px;
+    border-radius: 2px;
+    width: 10.5em;
+    text-align: left;
+    cursor: pointer;
+    background-color: white;
+    margin-top: 5%;
+    margin-bottom: 2%;
+
+  }
+  .inpt:hover {
+    background-color:rgb(246, 138, 38);
+
+  }
+  #search{
+    background-color: rgb(230, 230, 229);
+    border: none;
+    padding: 10px;
+    border-radius: 2px;
+  }
+
+
+
+body{
+  box-sizing :border-box;
+  background-image: url("background.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment:fixed;
+  
+}
+
+.content{
+  display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(3, 1fr);
+width :600px;
+grid-gap: 0.5rem;
+  
+  
+}
+
+#plafont{
+  color: rgb(4, 25, 43);
+  font-weight: bold;
+  background-color: rgb(255, 136, 25);
+  padding: 5px 0 5px 6px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+}

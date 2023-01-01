@@ -1,0 +1,24 @@
+a{
+    padding: 1%;
+    font-size: larger;
+    color: rgb(254, 245, 245);
+    margin-left: 1%;
+    text-decoration: none;
+}
+header{
+    padding: 1% 0 1% 0;
+    background-color: rgb(23, 70, 109);
+    
+}
+nav{
+  
+    margin-left: 5%;
+}
+
+  
+  a:hover {
+    color:rgb(18, 18, 85) ;
+    background-color:rgb(246, 138, 38) ;
+  }
+  
+  
